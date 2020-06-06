@@ -1,0 +1,736 @@
+body  {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #35802D;
+	background-color: #FFF;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat-x;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+.twoColFixLtHdr #container {
+	width: 1000px;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+} 
+.large {
+	font-size: 32px;
+	font-weight: normal;
+}
+.twoColFixLtHdr #container #content #mainContent h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	color: #35802D;
+}
+.indent {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #036;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 38px;
+}
+.twoColFixLtHdr #container #content #mainContent h4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 26px;
+	color: #35802D;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 38px;
+}
+.rightpanel {
+	padding: 0px;
+	float: right;
+	width: 190px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.twoColFixLtHdr #container #content #mainContent #services h4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+}
+.rightpanel {
+	padding: 0px;
+	float: right;
+	width: 190px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.twoColFixLtHdr #header {
+} 
+.twoColFixLtHdr #container #content #mainContent h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: normal;
+	color: #35802D;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+.twoColFixLtHdr #header h1 {
+	margin: 0px; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	font-weight: normal;
+	color: #35802D;
+	padding-top: 9px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.rightpanel {
+	padding: 0px;
+	float: right;
+	width: 190px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.rightpanel {
+	padding: 0px;
+	float: right;
+	width: 190px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.twoColFixLtHdr #sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 185px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 12px;
+	padding: 0px;
+	background-image: url(images/sidepanelmiddle.jpg);
+	background-repeat: repeat-y;
+}
+.twoColFixLtHdr #container #content #mainContent h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #35802D;
+	font-weight: normal;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+.rightpanel {
+	padding: 0px;
+	float: right;
+	width: 190px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+.twoColFixLtHdr #mainContent {
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 220px;
+	padding-top: 0;
+	padding-right: 20px;
+	padding-bottom: 0;
+} 
+.twoColFixLtHdr #container #content #mainContenthome #video {
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #mainContenthome {
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 20px;
+	padding-top: 0;
+	padding-right: 15px;
+	padding-bottom: 0;
+} 
+.twoColFixLtHdr #footer {
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #35802D;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+} 
+.twoColFixLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 0px; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #35802D;
+}
+.footer_small {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #35802D;
+}
+.twoColFixLtHdr #container #content #mainContenthome #panel_left {
+	float: left;
+	width: 400px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #content #mainContenthome #centre_panel {
+	float: left;
+	width: 190px;
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #35802D;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #35802D;
+}
+.twoColFixLtHdr #container #content #mainContenthome #panel_right {
+	float: right;
+	width: 200px;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #content #mainContenthome #panels {
+	float: left;
+	width: 645px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	height: 580px;
+}
+.twoColFixLtHdr #container #content #mainContenthome #botton_text {
+	float: left;
+	width: 650px;
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+}
+.twoColFixLtHdr #container #footer #left_footer {
+	float: left;
+	width: 240px;
+}
+.twoColFixLtHdr #container #footer #centre_footer {
+	float: left;
+	width: 440px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #35802D;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	margin-bottom: 40px;
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.twoColFixLtHdr #container #header #top h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	padding: 0px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: right;
+}
+.twoColFixLtHdr #container #header #top {
+}
+.twoColFixLtHdr #container #header #top {
+}
+.twoColFixLtHdr #container #header #top {
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	height: 15px;
+}
+.twoColFixLtHdr #container #header #logoandtitle {
+}
+.twoColFixLtHdr #container #header #logoandtitle {
+	width: 900px;
+	padding: 0px;
+	margin-top: 11px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #header #logoandtitle #logo {
+}
+.twoColFixLtHdr #container #header #logoandtitle #title {
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.twoColFixLtHdr #container #header {
+}
+.twoColFixLtHdr #container #header #logoandtitle #title h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #35802D;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-size: 36px;
+}
+.twoColFixLtHdr #container #header #logoandtitle #title h2 {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #35802D;
+	font-size: 24px;
+}
+.twoColFixLtHdr #container #header #nav {
+	width: 900px;
+	/* background-image: url(images/navbuttonspanel.jpg); */
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	padding: 0px;
+	background-repeat: no-repeat;
+}
+.twoColFixLtHdr #container #header #logo {
+	height: 109px;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.twoColFixLtHdr #container #header #images {
+	background-image: url(images/images.jpg);
+	height: 160px;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #header #logophone {
+	height: 109px;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.twoColFixLtHdr #container #header #logoplain {
+	height: 109px;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+.twoColFixLtHdr #container #header #logo h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: #35802D;
+	margin: 0px;
+	padding: 0px;
+}
+.phone {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #35802D;
+}
+.blue {
+	color: #35802D;
+}
+.twoColFixLtHdr #container #content {
+}
+.twoColFixLtHdr #container #content {
+}
+.twoColFixLtHdr #container #content {
+	background-image: url(images/panelmiddle.jpg);
+	background-repeat: repeat-y;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+.twoColFixLtHdr #container #content #mainContent h1 {
+	margin: 0px;
+	padding: 0px;
+}
+.twoColFixLtHdr #container #content #mainContenthome h1 {
+	margin: 0px;
+	padding: 0px;
+}
+.twoColFixLtHdr #container #content #mainContent h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #35802D;
+	font-weight: normal;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #content #mainContenthome h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	color: #35802D;
+	font-weight: normal;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #content #sidebar1 #panelcontent {
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+	margin: 0px;
+}
+.twoColFixLtHdr #container #content #sidebar1 #panelcontent h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+}
+.licence {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+.twoColFixLtHdr #container #content #sidebar1 #panelcontent p {
+	margin: 0px;
+	padding: 0px;
+}
+.twoColFixLtHdr #container #content #sidebar1 #panelcontent p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	padding: 0;
+	margin-top: 2px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.twoColFixLtHdr #container #content #sidebar1 #panelcontent p img {
+	padding: 0px;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #content #sidebar1 #panelcontent img {
+	padding: 0px;
+	margin-top: 6px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #content #mainContent #services {
+	float: right;
+	width: 160px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #35802D;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.twoColFixLtHdr #container #content #mainContent #services p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #35802D;
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #content #sidebar1 #panelcontent h4 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+}
+.twoColFixLtHdr #container #content #mainContent p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	color: #35802D;
+	margin: 0px;
+	padding: 0px;
+}
+.twoColFixLtHdr #container #content #mainContenthome p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	color: #35802D;
+	margin: 0px;
+	padding: 0px;
+}
+.twoColFixLtHdr #container #content #mainContent h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	color: #35802D;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #content #mainContenthome h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #35802D;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+}
+.lightblue {
+	color: #35802D;
+}
+.twoColFixLtHdr #container #footer #credits {
+	float: right;
+	width: 250px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #35802D;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	text-align: right;
+}
+.twoColFixLtHdr #container #footer #credits p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #35802D;
+}
+.sitemap {
+	font-size: 11px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #35802D;
+}
+.twoColFixLtHdr #container #header #nav h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	color: #35802D;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+a:link {
+	color: #35802D;
+	text-decoration: none;
+}
+a:visited {
+	color: #35802D;
+	text-decoration: none;
+}
+a:hover {
+	color: #35802D;
+	text-decoration: none;
+}
+a:active {
+	color: #35802D;
+	text-decoration: none;
+}
+.twoColFixLtHdr #container #header #logoplain h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color: #35802D;
+}
+.twoColFixLtHdr #container #header #logophone h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color: #35802D;
+}
+.bolder {	font-weight: bold;
+}
+.phone1 {	color: #35802D;
+}
+.phone1 {	font-weight: bold;
+	font-size: 15px;
+	color: #35802D;
+}
+.twoColFixLtHdr #container #footer #footer_centre {
+	float: right;
+	width: 300px;
+	padding: 0px;
+	margin-top: 0px;
+	
+	.twoColFixLtHdr #container #content #mainContenthome #industry_content #home_text {
+	float: left;
+	width: 800px;
+}
+	margin-right: 30px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.twoColFixLtHdr #container #content #mainContent #affir_right_panel {
+	float: right;
+	width: 200px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.twoColFixLtHdr #container #content #mainContent #affir_right_panel p strong img {
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.twoColFixLtHdr #container #content #mainContenthome #industry_content #home_text {
+	width: 850px;
+	padding: 0px;
+	border-top-color: #35802D;
+	height: 10px;
+	margin: 0px;
+	float: right;
+}
+.twoColFixLtHdr #container #content #mainContent #services h5 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	color: #35802D;
+}
+.rightpanel {
+	padding: 0px;
+	float: right;
+	width: 190px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.twoColFixLtHdr #container #header {
+}
+.twoColFixLtHdr #container #footer #centre_footer #sitemap_industry {
+	float: right;
+	width: 200px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #35802D;
+}
+.priority
+{
+    display:none !important;	
+}
